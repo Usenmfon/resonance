@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 11 9 8;
+  --foreground: 243 237 229;
+  --muted: 183 169 148;
+  --panel: 21 17 15;
+  --line: 243 237 229 / 0.12;
+  --accent: 214 164 99;
+  --accent-soft: 143 91 45;
+  --grid-primary: 255 255 255 / 0.05;
+  --grid-secondary: 255 255 255 / 0.03;
+  --body-top-glow: 214 164 99 / 0.08;
+  --body-gradient-start: 18 15 13;
+  --body-gradient-mid: 11 9 8;
+  --body-gradient-end: 10 8 7;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --background: 248 243 236;
+  --foreground: 27 22 18;
+  --muted: 112 95 74;
+  --panel: 255 251 246;
+  --line: 49 35 24 / 0.12;
+  --accent: 165 104 45;
+  --accent-soft: 125 83 42;
+  --grid-primary: 40 27 18 / 0.06;
+  --grid-secondary: 40 27 18 / 0.03;
+  --body-top-glow: 165 104 45 / 0.11;
+  --body-gradient-start: 255 251 246;
+  --body-gradient-mid: 246 239 231;
+  --body-gradient-end: 239 232 223;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgb(var(--body-top-glow)), transparent 30%),
+    linear-gradient(
+      180deg,
+      rgb(var(--body-gradient-start)) 0%,
+      rgb(var(--body-gradient-mid)) 50%,
+      rgb(var(--body-gradient-end)) 100%
+    );
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  background-image:
+    linear-gradient(rgb(var(--grid-primary)) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--grid-secondary)) 1px, transparent 1px);
+  background-size: 120px 120px;
+  mask-image: radial-gradient(circle at center, black, transparent 85%);
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  body {
+    @apply font-body text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+
+  ::selection {
+    background: rgb(var(--accent) / 0.25);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), serif;
+  }
+
+  .font-body {
+    font-family: var(--font-body), sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

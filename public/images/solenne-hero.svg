@@ -1,0 +1,16 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#100D0D"/>
+  <rect width="1200" height="1500" fill="url(#paint0_radial)"/>
+  <circle cx="850" cy="360" r="250" fill="#E2B06E" fill-opacity="0.18"/>
+  <circle cx="360" cy="1180" r="280" fill="#5B6C7D" fill-opacity="0.22"/>
+  <path d="M265 1275C265 1038.66 456.662 847 693 847H823C823 1083.34 631.338 1275 395 1275H265Z" fill="#EEE3D5"/>
+  <rect x="490" y="320" width="280" height="420" rx="140" fill="#D39B58"/>
+  <rect x="405" y="720" width="450" height="455" rx="220" fill="#1B1716"/>
+  <text x="88" y="140" fill="#F3EDE5" font-family="Georgia, serif" font-size="72" letter-spacing="12">SOLENNE VALE</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 520) rotate(90) scale(980 760)">
+      <stop stop-color="#2C1D13"/>
+      <stop offset="1" stop-color="#090807"/>
+    </radialGradient>
+  </defs>
+</svg>

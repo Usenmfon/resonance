@@ -1,0 +1,14 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" fill="#0E0908"/>
+  <rect width="900" height="1100" fill="url(#paint0_radial)"/>
+  <circle cx="650" cy="235" r="180" fill="#E2B06A" fill-opacity="0.24"/>
+  <rect x="300" y="180" width="280" height="360" rx="140" fill="#E0B064"/>
+  <rect x="234" y="520" width="412" height="430" rx="190" fill="#EBDCC8"/>
+  <text x="66" y="1018" fill="#F7EFE7" font-family="Georgia, serif" font-size="58" letter-spacing="10">BEYONCE</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 340) rotate(90) scale(730 560)">
+      <stop stop-color="#362116"/>
+      <stop offset="1" stop-color="#0B0807"/>
+    </radialGradient>
+  </defs>
+</svg>

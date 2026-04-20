@@ -1,0 +1,17 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#090909"/>
+  <rect width="1200" height="1500" fill="url(#paint0_radial)"/>
+  <circle cx="854" cy="270" r="238" fill="#B77D3B" fill-opacity="0.28"/>
+  <circle cx="236" cy="1180" r="216" fill="#5A2214" fill-opacity="0.22"/>
+  <rect x="442" y="248" width="292" height="390" rx="146" fill="#9F6A34"/>
+  <rect x="338" y="624" width="500" height="564" rx="240" fill="#151312"/>
+  <path d="M478 252C520 206 571 182 626 182C685 182 736 207 778 255C734 243 684 236 628 236C572 236 521 241 478 252Z" fill="#17110E"/>
+  <path d="M376 886C450 826 534 796 628 796C720 796 804 826 878 886C817 1004 736 1096 628 1096C518 1096 438 1004 376 886Z" fill="#D9D2C8"/>
+  <text x="62" y="138" fill="#F5EFE8" font-family="Georgia, serif" font-size="62" letter-spacing="10">KENDRICK LAMAR</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 490) rotate(90) scale(980 760)">
+      <stop stop-color="#27201A"/>
+      <stop offset="1" stop-color="#090807"/>
+    </radialGradient>
+  </defs>
+</svg>

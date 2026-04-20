@@ -1,0 +1,14 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" fill="#0C0B0C"/>
+  <rect width="900" height="1100" fill="url(#paint0_radial)"/>
+  <circle cx="650" cy="240" r="165" fill="#D6B07A" fill-opacity="0.22"/>
+  <rect x="300" y="186" width="280" height="350" rx="140" fill="#E5C693"/>
+  <rect x="242" y="520" width="396" height="430" rx="190" fill="#F1E5D9"/>
+  <text x="58" y="1016" fill="#F8F1EA" font-family="Georgia, serif" font-size="52" letter-spacing="10">TAYLOR SWIFT</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 350) rotate(90) scale(710 560)">
+      <stop stop-color="#32272B"/>
+      <stop offset="1" stop-color="#0A0808"/>
+    </radialGradient>
+  </defs>
+</svg>

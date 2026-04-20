@@ -1,0 +1,15 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#09090B"/>
+  <rect width="1200" height="1500" fill="url(#paint0_radial)"/>
+  <circle cx="860" cy="240" r="240" fill="#9CB6D7" fill-opacity="0.25"/>
+  <circle cx="250" cy="1180" r="220" fill="#B783C3" fill-opacity="0.2"/>
+  <rect x="455" y="260" width="250" height="380" rx="125" fill="#C7D8F4"/>
+  <rect x="360" y="620" width="440" height="540" rx="220" fill="#111116"/>
+  <text x="82" y="140" fill="#F3EDE5" font-family="Georgia, serif" font-size="72" letter-spacing="12">AMARA BLOOM</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 520) rotate(90) scale(980 760)">
+      <stop stop-color="#232536"/>
+      <stop offset="1" stop-color="#090807"/>
+    </radialGradient>
+  </defs>
+</svg>

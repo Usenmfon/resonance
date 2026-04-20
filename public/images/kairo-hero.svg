@@ -1,0 +1,15 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#090A0C"/>
+  <rect width="1200" height="1500" fill="url(#paint0_radial)"/>
+  <circle cx="780" cy="240" r="220" fill="#E1B16C" fill-opacity="0.26"/>
+  <circle cx="250" cy="1200" r="240" fill="#0E3A53" fill-opacity="0.3"/>
+  <rect x="450" y="260" width="260" height="380" rx="130" fill="#C98B47"/>
+  <rect x="360" y="620" width="430" height="540" rx="210" fill="#1C1A17"/>
+  <text x="80" y="138" fill="#F3EDE5" font-family="Georgia, serif" font-size="72" letter-spacing="12">KAIRO SAINT</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 520) rotate(90) scale(980 760)">
+      <stop stop-color="#1B1F24"/>
+      <stop offset="1" stop-color="#090807"/>
+    </radialGradient>
+  </defs>
+</svg>

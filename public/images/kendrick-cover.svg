@@ -1,0 +1,14 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" fill="#090909"/>
+  <rect width="900" height="1100" fill="url(#paint0_radial)"/>
+  <circle cx="650" cy="236" r="164" fill="#B77D3B" fill-opacity="0.24"/>
+  <rect x="302" y="188" width="272" height="346" rx="136" fill="#9F6A34"/>
+  <rect x="246" y="518" width="392" height="430" rx="190" fill="#DDD5CB"/>
+  <text x="44" y="1014" fill="#F5EFE8" font-family="Georgia, serif" font-size="48" letter-spacing="8">KENDRICK LAMAR</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 336) rotate(90) scale(710 560)">
+      <stop stop-color="#2B221D"/>
+      <stop offset="1" stop-color="#090807"/>
+    </radialGradient>
+  </defs>
+</svg>
