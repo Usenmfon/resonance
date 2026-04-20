@@ -40,7 +40,7 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
       <AnimatePresence>
         {activeIndex !== null ? (
           <motion.div
-            className="fixed inset-0 z-[60] flex items-center justify-center bg-background/95 p-6 backdrop-blur-xl"
+            className="fixed inset-0 z-[60] flex items-center justify-center bg-background/95 p-4 backdrop-blur-xl sm:p-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -60,7 +60,7 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
               transition={{ duration: 0.35 }}
               className="w-full max-w-5xl space-y-5"
             >
-              <div className="relative aspect-[16/10] overflow-hidden rounded-[32px] border border-line">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] border border-line sm:aspect-[16/10] sm:rounded-[32px]">
                 <EditorialImage
                   src={items[activeIndex].src}
                   alt={items[activeIndex].alt}
@@ -69,7 +69,7 @@ export function GalleryLightbox({ items }: GalleryLightboxProps) {
                 />
               </div>
               <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                <p className="text-lg uppercase tracking-[0.12em] text-foreground">
+                <p className="text-base uppercase tracking-[0.12em] text-foreground sm:text-lg">
                   {items[activeIndex].caption}
                 </p>
                 <p className="text-sm text-muted">{items[activeIndex].alt}</p>

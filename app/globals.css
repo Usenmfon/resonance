@@ -38,6 +38,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -49,6 +50,7 @@ body {
       rgb(var(--body-gradient-mid)) 50%,
       rgb(var(--body-gradient-end)) 100%
     );
+  overflow-x: hidden;
 }
 
 body::before {

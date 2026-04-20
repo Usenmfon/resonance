@@ -24,7 +24,7 @@ export function CelebrityFilter({ celebrities, genres }: CelebrityFilterProps) {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col gap-5 rounded-[32px] border border-line bg-white/[0.03] p-6 md:flex-row md:items-center md:justify-between">
+      <div className="flex flex-col gap-5 rounded-[32px] border border-line bg-white/[0.03] p-4 sm:p-6 md:flex-row md:items-center md:justify-between">
         <label className="flex w-full items-center gap-3 rounded-full border border-line px-5 py-3 md:max-w-md">
           <Search size={16} className="text-muted" />
           <input
@@ -41,7 +41,7 @@ export function CelebrityFilter({ celebrities, genres }: CelebrityFilterProps) {
               key={genre}
               type="button"
               onClick={() => setActiveGenre(genre)}
-              className={`rounded-full border px-4 py-2 text-xs uppercase tracking-[0.28em] transition ${
+              className={`rounded-full border px-3 py-2 text-[0.65rem] uppercase tracking-[0.22em] transition sm:px-4 sm:text-xs sm:tracking-[0.28em] ${
                 activeGenre === genre
                   ? "border-accent bg-accent text-background"
                   : "border-line text-foreground hover:border-accent hover:text-accent"

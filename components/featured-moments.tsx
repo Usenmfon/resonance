@@ -10,13 +10,13 @@ export function FeaturedMoments({ items }: FeaturedMomentsProps) {
       {items.map((item) => (
         <article
           key={`${item.title}-${item.year}`}
-          className="rounded-[28px] border border-line bg-panel p-6 transition hover:border-accent/60"
+          className="rounded-[28px] border border-line bg-panel p-5 transition hover:border-accent/60 sm:p-6"
         >
-          <div className="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.28em] text-muted">
+          <div className="flex flex-wrap items-center justify-between gap-2 text-xs uppercase tracking-[0.24em] text-muted sm:tracking-[0.28em]">
             <span>{item.category}</span>
             <span>{item.year}</span>
           </div>
-          <h3 className="mt-5 text-2xl uppercase tracking-[0.08em] text-foreground">{item.title}</h3>
+          <h3 className="mt-5 text-xl uppercase tracking-[0.08em] text-foreground sm:text-2xl">{item.title}</h3>
           <p className="mt-4 text-sm leading-7 text-muted">{item.description}</p>
         </article>
       ))}

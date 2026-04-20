@@ -53,12 +53,12 @@ export default function CelebrityDetailPage({ params }: PageProps) {
     <main>
       <section className="relative overflow-hidden border-b border-line">
         <div className="absolute inset-0 bg-grain-radial" />
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-[0.95fr_1.05fr] md:px-10 md:py-20">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-[0.95fr_1.05fr] md:gap-10 md:px-10 md:py-20">
           <Reveal>
-            <div className="space-y-8">
+            <div className="space-y-6 md:space-y-8">
               <p className="text-xs uppercase tracking-[0.38em] text-muted">Artist Biography</p>
               <div className="space-y-4">
-                <h1 className="font-display text-5xl uppercase leading-[0.9] tracking-display md:text-7xl xl:text-8xl">
+                <h1 className="font-display text-[clamp(3rem,14vw,4.5rem)] uppercase leading-[0.9] tracking-display md:text-7xl xl:text-8xl">
                   {celebrity.stageName}
                 </h1>
                 <p className="text-sm uppercase tracking-[0.3em] text-muted">{celebrity.name}</p>
@@ -87,7 +87,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
             </div>
           </Reveal>
           <Reveal delay={0.12}>
-            <div className="relative min-h-[520px] overflow-hidden rounded-[36px] border border-line shadow-glow">
+            <div className="relative min-h-[420px] overflow-hidden rounded-[28px] border border-line shadow-glow sm:min-h-[520px] md:rounded-[36px]">
               <EditorialImage
                 src={celebrity.heroImage}
                 alt={celebrity.stageName}
@@ -96,7 +96,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 flex flex-wrap items-center justify-between gap-3 p-6 text-xs uppercase tracking-[0.28em] text-muted">
+              <div className="absolute bottom-0 left-0 right-0 flex flex-wrap items-center justify-between gap-3 p-4 text-xs uppercase tracking-[0.24em] text-muted sm:p-6 sm:tracking-[0.28em]">
                 <span>{celebrity.nationality}</span>
                 <span>{celebrity.yearsActive}</span>
               </div>
@@ -105,7 +105,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-[0.55fr_1fr] md:px-10">
+      <section className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-[0.55fr_1fr] md:px-10 md:py-24">
         <Reveal className="space-y-6">
           <SectionHeading
             eyebrow="Biography"
@@ -155,7 +155,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
       </section>
 
       <section className="border-y border-line">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-24 md:grid-cols-[0.75fr_1.25fr] md:px-10">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-[0.75fr_1.25fr] md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Early Life"
@@ -194,7 +194,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Career Timeline"
@@ -210,7 +210,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
       </section>
 
       <section id="discography" className="border-t border-line">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Discography"
@@ -227,7 +227,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <section id="awards" className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section id="awards" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Awards & Recognition"
@@ -242,7 +242,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
       </section>
 
       <section className="border-y border-line">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Stats"
@@ -259,7 +259,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Gallery"
@@ -274,7 +274,7 @@ export default function CelebrityDetailPage({ params }: PageProps) {
       </section>
 
       <section className="border-t border-line">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Featured Moments"
@@ -289,18 +289,18 @@ export default function CelebrityDetailPage({ params }: PageProps) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <LegacySection title={celebrity.stageName} paragraphs={celebrity.influence} />
         </Reveal>
       </section>
 
       <section className="border-t border-line">
-        <div className="mx-auto max-w-7xl px-6 py-20 md:px-10">
-          <div className="grid gap-8 rounded-[36px] border border-line bg-white/[0.03] p-8 md:grid-cols-[1fr_auto] md:items-end md:p-10">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-20">
+          <div className="grid gap-8 rounded-[30px] border border-line bg-white/[0.03] p-6 sm:p-8 md:grid-cols-[1fr_auto] md:items-end md:rounded-[36px] md:p-10">
             <div className="space-y-4">
               <p className="text-xs uppercase tracking-[0.35em] text-muted">Platforms</p>
-              <h2 className="font-display text-4xl uppercase leading-none tracking-display md:text-6xl">
+              <h2 className="font-display text-3xl uppercase leading-[0.95] tracking-display sm:text-4xl md:text-6xl">
                 Follow the archive beyond the biography.
               </h2>
               <p className="max-w-2xl text-base leading-8 text-muted">

@@ -18,7 +18,7 @@ export default function HomePage() {
     <main>
       <HeroSection celebrity={featuredCelebrity} />
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Featured Celebrities"
@@ -36,7 +36,7 @@ export default function HomePage() {
       </section>
 
       <section className="border-y border-line">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-24 md:grid-cols-[0.9fr_1.1fr] md:px-10">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-[0.9fr_1.1fr] md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Career Highlights"
@@ -63,7 +63,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Awards & Stats"
@@ -81,7 +81,7 @@ export default function HomePage() {
       </section>
 
       <section id="featured-moments" className="border-t border-line">
-        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
           <Reveal>
             <SectionHeading
               eyebrow="Featured Moments"
@@ -97,12 +97,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="legacy" className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+      <section id="legacy" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
         <Reveal>
-          <div className="rounded-[36px] border border-line bg-white/[0.03] p-8 md:grid md:grid-cols-[0.85fr_1.15fr] md:gap-10 md:p-12">
+          <div className="rounded-[30px] border border-line bg-white/[0.03] p-6 sm:p-8 md:grid md:grid-cols-[0.85fr_1.15fr] md:gap-10 md:rounded-[36px] md:p-12">
             <div>
               <p className="text-xs uppercase tracking-[0.35em] text-muted">Platform Vision</p>
-              <h2 className="mt-4 font-display text-4xl uppercase leading-none tracking-display md:text-6xl">
+              <h2 className="mt-4 font-display text-3xl uppercase leading-[0.95] tracking-display sm:text-4xl md:text-6xl">
                 Built for music stories that deserve cinematic space.
               </h2>
             </div>

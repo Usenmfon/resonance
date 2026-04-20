@@ -14,7 +14,7 @@ export function AwardsGrid({ awards }: AwardsGridProps) {
         >
           <p className="text-xs uppercase tracking-[0.32em] text-muted">{award.organization}</p>
           <h3 className="mt-4 text-lg uppercase tracking-[0.08em] text-foreground">{award.title}</h3>
-          <div className="mt-5 flex items-center justify-between gap-3 border-t border-line pt-4 text-sm text-muted">
+          <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4 text-sm text-muted">
             <span>{award.year}</span>
             <span className="uppercase tracking-[0.2em] text-accent">{award.result}</span>
           </div>

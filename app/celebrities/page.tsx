@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function CelebritiesPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-20 md:px-10 md:py-24">
+    <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:px-10 md:py-24">
       <Reveal>
         <SectionHeading
           eyebrow="Artist Directory"

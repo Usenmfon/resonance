@@ -10,10 +10,10 @@ export function Timeline({ items }: TimelineProps) {
       {items.map((item, index) => (
         <article
           key={`${item.year}-${item.title}`}
-          className="grid gap-5 rounded-[28px] border border-line bg-white/[0.03] p-6 md:grid-cols-[120px_1fr]"
+          className="grid gap-5 rounded-[28px] border border-line bg-white/[0.03] p-5 sm:p-6 md:grid-cols-[120px_1fr]"
         >
           <div className="flex items-start gap-4 md:block">
-            <span className="font-display text-4xl uppercase leading-none tracking-display text-accent">
+            <span className="font-display text-3xl uppercase leading-none tracking-display text-accent sm:text-4xl">
               {item.year}
             </span>
             {index !== items.length - 1 ? (
